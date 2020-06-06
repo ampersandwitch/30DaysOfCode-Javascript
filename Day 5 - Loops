@@ -1,0 +1,7 @@
+function main(i) {
+    const n = parseInt(readLine(), 10);
+    for (i = 1; i <= 10; i++) {
+        let multi = (i * n);
+        console.log(`${n} x ${i} = ${multi}`);
+    }
+};
